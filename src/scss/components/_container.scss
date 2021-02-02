@@ -5,4 +5,14 @@
     height: 100vh;
     margin: 0 auto;
   }
+
+  &-info {
+    & h1 {
+      text-align: center;
+    }
+    &__text {
+      margin: 0 1.5rem;
+      line-height: 1.4rem;
+    }
+  }
 }

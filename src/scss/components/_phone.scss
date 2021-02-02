@@ -3,17 +3,18 @@
   height: $phone-height;
   display: block;
   margin: 0 auto;
-  box-shadow: 1px 1px 27px rgba($color: #000000, $alpha: 0.2);
+  box-shadow: 1px 1px 31px rgba($color: #000000, $alpha: 0.25);
   border-radius: $screen-corner-radius;
   background-color: white;
 
   &__screen {
     width: $screen-width;
     height: $screen-height;
-    background-color: rgb(138, 145, 243);
     position: relative;
     left: $screen-margin-left-right;
     top: $screen-margin-top-bottom;
     border-radius: $screen-corner-radius;
+    background-color: $screen-colour;
+    overflow: hidden;
   }
 }

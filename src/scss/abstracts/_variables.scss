@@ -1,9 +1,12 @@
-$phone-width: 19rem;
-$phone-height: 42rem;
+$phone-width: 16rem;
+$phone-height: 31rem;
 $phone-corner-radius: 4.1rem;
-$screen-border-around: 1.5rem;
+$screen-border-around: 1.2rem;
 $screen-width: ($phone-width - $screen-border-around);
 $screen-height: ($phone-height - $screen-border-around);
 $screen-corner-radius: ($phone-corner-radius - 2.5rem);
 $screen-margin-left-right: ($screen-border-around / 2);
 $screen-margin-top-bottom: ($screen-border-around / 2);
+
+//colours
+$screen-colour: #f5f3f8;
