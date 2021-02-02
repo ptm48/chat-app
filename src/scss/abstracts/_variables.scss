@@ -1,5 +1,5 @@
 $phone-width: 16rem;
-$phone-height: 31rem;
+$phone-height: 30rem;
 $phone-corner-radius: 4.1rem;
 $screen-border-around: 1.2rem;
 $screen-width: ($phone-width - $screen-border-around);
@@ -10,3 +10,10 @@ $screen-margin-top-bottom: ($screen-border-around / 2);
 
 //colours
 $screen-colour: #f5f3f8;
+
+//gradients
+$light-magenta: #e942ff;
+$light-violet: hsl(264, 100%, 61%);
+$pale-violet: hsl(276, 100%, 81%);
+$dark-grayish-violet: hsl(270, 7%, 64%);
+$very-dark-desaturated-violet: hsl(271, 36%, 24%);

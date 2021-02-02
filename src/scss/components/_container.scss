@@ -9,10 +9,14 @@
   &-info {
     & h1 {
       text-align: center;
+      font-size: 2.6rem;
+      color: $very-dark-desaturated-violet;
     }
     &__text {
-      margin: 0 1.5rem;
-      line-height: 1.4rem;
+      margin: 0 1.3rem;
+      line-height: 1.6rem;
+      color: $dark-grayish-violet;
+      text-align: center;
     }
   }
 }

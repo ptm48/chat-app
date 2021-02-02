@@ -1,6 +1,14 @@
 .spacer {
+  &-1_5rem {
+    padding-top: 1_5rem;
+    width: 100%;
+  }
   &-2rem {
     padding-top: 2rem;
+    width: 100%;
+  }
+  &-2_5rem {
+    padding-top: 2.5rem;
     width: 100%;
   }
   &-3rem {
